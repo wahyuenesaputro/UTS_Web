@@ -1,6 +1,6 @@
 <div align="center">
 
-<h1>?? SMART-SMASH</h1>
+<h1>SMART-SMASH</h1>
 <p><strong>Sistem Reservasi Lapangan Badminton Online</strong></p>
 
 <p>
@@ -12,26 +12,26 @@
   <img src="https://img.shields.io/badge/License-MIT-10b981?style=for-the-badge" alt="License">
 </p>
 
-<p><em>Pesan lapangan badminton kapan saja, di mana saja — tanpa perlu antre!</em></p>
+<p><em>Pesan lapangan badminton kapan saja, di mana saja ï¿½ tanpa perlu antre!</em></p>
 
 </div>
 
 ---
 
-## ?? Screenshots
+## Screenshots
 
 <table>
   <tr>
-    <td align="center"><strong>?? Landing Page</strong></td>
-    <td align="center"><strong>?? Form Booking</strong></td>
+Landing Page
+Form Booking
   </tr>
   <tr>
     <td><img src="docs/screenshots/landing_page.png" alt="Landing Page" width="400"/></td>
     <td><img src="docs/screenshots/booking_form.png" alt="Form Booking" width="400"/></td>
   </tr>
   <tr>
-    <td align="center"><strong>?? Dashboard User</strong></td>
-    <td align="center"><strong>??? Dashboard Admin</strong></td>
+Dashboard User
+Dashboard Admin
   </tr>
   <tr>
     <td><img src="docs/screenshots/user_dashboard.png" alt="Dashboard User" width="400"/></td>
@@ -41,41 +41,41 @@
 
 ---
 
-## ?? Deskripsi
+## Deskripsi
 
-**SMART-SMASH** adalah aplikasi web sistem reservasi lapangan badminton yang dibangun menggunakan **Laravel 12**. Aplikasi ini memungkinkan pengguna untuk melakukan pemesanan lapangan badminton secara online dengan mudah dan cepat — mulai dari memilih lapangan, menentukan jadwal, hingga proses pembayaran digital.
+Aplikasi ini memungkinkan pengguna untuk melakukan pemesanan lapangan badminton secara online dengan mudah dan cepat, mulai dari memilih lapangan, menentukan jadwal, hingga proses pembayaran digital.
 
 Aplikasi ini dirancang dengan antarmuka modern bertema gelap (*dark mode*) menggunakan **Tailwind CSS**, serta dilengkapi dengan panel admin yang komprehensif untuk pengelolaan seluruh aspek operasional lapangan badminton.
 
 ---
 
-## ? Fitur Utama
+## Fitur Utama
 
-### ?? Untuk Pengguna (User)
+### Untuk Pengguna (User)
 | Fitur | Deskripsi |
 |-------|-----------|
-| ?? **Autentikasi** | Registrasi, login, dan manajemen profil |
-| ?? **Lihat Lapangan** | Melihat daftar lapangan beserta harga dan ketersediaan |
-| ?? **Booking Lapangan** | Pemesanan lapangan dengan pemilihan tanggal dan jam |
-| ??? **Voucher Diskon** | Penggunaan kode voucher saat melakukan pemesanan |
-| ?? **Pembayaran Digital** | Upload bukti bayar via QRIS, E-Wallet, atau Transfer Bank |
-| ?? **Riwayat Booking** | Melihat seluruh riwayat pemesanan |
-| ? **Ulasan & Rating** | Memberikan review dan rating setelah bermain |
+|  **Autentikasi** | Registrasi, login, dan manajemen profil |
+|  **Lihat Lapangan** | Melihat daftar lapangan beserta harga dan ketersediaan |
+| **Booking Lapangan** | Pemesanan lapangan dengan pemilihan tanggal dan jam |
+| **Voucher Diskon** | Penggunaan kode voucher saat melakukan pemesanan |
+| **Pembayaran Digital** | Upload bukti bayar via QRIS, E-Wallet, atau Transfer Bank |
+| **Riwayat Booking** | Melihat seluruh riwayat pemesanan |
+| **Ulasan & Rating** | Memberikan review dan rating setelah bermain |
 
-### ??? Untuk Admin
+### Untuk Admin
 | Fitur | Deskripsi |
 |-------|-----------|
-| ?? **Dashboard Admin** | Statistik total booking, pendapatan, lapangan aktif |
-| ??? **Manajemen Lapangan** | CRUD lapangan (nama, jenis, harga, foto, deskripsi) |
-| ?? **Manajemen Booking** | Monitoring dan konfirmasi semua pemesanan |
-| ?? **Manajemen Pembayaran** | Verifikasi bukti pembayaran dari pengguna |
-| ??? **Manajemen Voucher** | Membuat dan mengelola kode diskon |
-| ? **Manajemen Ulasan** | Moderasi ulasan yang diberikan pengguna |
-| ?? **Laporan** | Ekspor laporan booking dan pendapatan dalam format PDF |
+| **Dashboard Admin** | Statistik total booking, pendapatan, lapangan aktif |
+| Manajemen Lapangan | CRUD lapangan (nama, jenis, harga, foto, deskripsi) |
+| Manajemen Booking | Monitoring dan konfirmasi semua pemesanan |
+| Manajemen Pembayaran | Verifikasi bukti pembayaran dari pengguna |
+| Manajemen Voucher | Membuat dan mengelola kode diskon |
+| Manajemen Ulasan | Moderasi ulasan yang diberikan pengguna |
+| Laporan | Ekspor laporan booking dan pendapatan dalam format PDF |
 
 ---
 
-## ??? Tech Stack
+## Tech Stack
 
 | Teknologi | Versi | Fungsi |
 |-----------|-------|--------|
@@ -90,10 +90,10 @@ Aplikasi ini dirancang dengan antarmuka modern bertema gelap (*dark mode*) mengg
 
 ---
 
-## ??? Struktur Database
+## Struktur Database
 
 ```
-?? Database: uts_web_badminton
+Database: uts_web_badminton
 +-- users          ? Data pengguna & admin
 +-- fields         ? Data lapangan badminton
 +-- bookings       ? Data pemesanan lapangan
@@ -191,30 +191,30 @@ Akses aplikasi di: **http://localhost:8000**
 ```
 UTS-Web/
 +-- app/
-¦   +-- Http/
-¦   ¦   +-- Controllers/        # Controller aplikasi
-¦   ¦       +-- BookingController.php
-¦   ¦       +-- FieldController.php
-¦   ¦       +-- PaymentController.php
-¦   ¦       +-- VoucherController.php
-¦   ¦       +-- ReviewController.php
-¦   ¦       +-- ReportController.php
-¦   +-- Models/                 # Model Eloquent
-¦       +-- User.php
-¦       +-- Field.php
-¦       +-- Booking.php
-¦       +-- Payment.php
-¦       +-- Voucher.php
-¦       +-- Review.php
+ï¿½   +-- Http/
+ï¿½   ï¿½   +-- Controllers/        # Controller aplikasi
+ï¿½   ï¿½       +-- BookingController.php
+ï¿½   ï¿½       +-- FieldController.php
+ï¿½   ï¿½       +-- PaymentController.php
+ï¿½   ï¿½       +-- VoucherController.php
+ï¿½   ï¿½       +-- ReviewController.php
+ï¿½   ï¿½       +-- ReportController.php
+ï¿½   +-- Models/                 # Model Eloquent
+ï¿½       +-- User.php
+ï¿½       +-- Field.php
+ï¿½       +-- Booking.php
+ï¿½       +-- Payment.php
+ï¿½       +-- Voucher.php
+ï¿½       +-- Review.php
 +-- database/
-¦   +-- migrations/             # Migrasi database
+ï¿½   +-- migrations/             # Migrasi database
 +-- resources/
-¦   +-- views/
-¦       +-- admin/              # Views panel admin
-¦       +-- user/               # Views panel user
-¦       +-- welcome.blade.php   # Halaman landing page
+ï¿½   +-- views/
+ï¿½       +-- admin/              # Views panel admin
+ï¿½       +-- user/               # Views panel user
+ï¿½       +-- welcome.blade.php   # Halaman landing page
 +-- routes/
-¦   +-- web.php                 # Definisi routing
+ï¿½   +-- web.php                 # Definisi routing
 +-- docs/
     +-- screenshots/            # Screenshot aplikasi
 ```
@@ -242,13 +242,13 @@ UTS-Web/
 
 ## ?? Informasi Tugas
 
-> ?? **Ujian Tengah Semester (UTS)** — Pemrograman Web
+> ?? **Ujian Tengah Semester (UTS)** ï¿½ Pemrograman Web
 
 | Keterangan | Detail |
 |------------|--------|
 | **Mata Kuliah** | Pemrograman Web |
 | **Jenis Tugas** | UTS (Ujian Tengah Semester) |
-| **Nama Aplikasi** | SMART-SMASH — Sistem Reservasi Lapangan Badminton |
+| **Nama Aplikasi** | SMART-SMASH ï¿½ Sistem Reservasi Lapangan Badminton |
 | **Framework** | Laravel 12 + Tailwind CSS |
 | **Repository** | [UTS_Web](https://github.com/wahyuenesaputro/UTS_Web) |
 
@@ -261,7 +261,7 @@ Proyek ini dibuat untuk keperluan akademik. Dibuat dengan ?? menggunakan **Larav
 ---
 
 <div align="center">
-  <p>© 2026 SMART-SMASH — Wahyu Ene Saputro. All rights reserved.</p>
+  <p>ï¿½ 2026 SMART-SMASH ï¿½ Wahyu Ene Saputro. All rights reserved.</p>
   <p>
     <a href="https://github.com/wahyuenesaputro/UTS_Web">? Kasih Bintang di GitHub!</a>
   </p>
